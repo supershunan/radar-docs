@@ -1,8 +1,8 @@
 export const VpSimpleConfig = {
   "srcDir": "./docs",
   "vpsimple": {
-    "shellBaseDir": "C:\\Users\\ASUS-A\\Desktop\\test\\radar-docs\\radar-docs",
-    "gitBaseDir": "C:\\Users\\ASUS-A\\Desktop\\test\\radar-docs\\radar-docs",
+    "shellBaseDir": "D:\\fxtwd\\radar-docs",
+    "gitBaseDir": "D:\\fxtwd\\radar-docs",
     "cmdDocsDev": "npm run docs:dev",
     "cmdDocsBuild": "npm run docs:build",
     "cmdNpmInstall": "npm install",
