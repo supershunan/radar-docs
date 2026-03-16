@@ -20,15 +20,15 @@ export const VpSimpleConfig = {
   "themeConfig": {
     "externalLinkIcon": false,
     "i18nRouting": true,
-    "logo": "",
+    "logo": "\\images\\logo.jpg",
     "socialLinks": [
       {
         "icon": "github",
-        "link": "https://github.com/vuejs/vitepress"
+        "link": "https://github.com/supershunan/radar-docs.git"
       }
     ],
     "outline": {
-      "level": 2,
+      "level": "1",
       "label": "On this page"
     },
     "search": {
@@ -188,13 +188,18 @@ export const VpSimpleConfig = {
         "externalLinkIcon": true,
         "editLink": {
           "text": "Edit this page on GitHub",
-          "pattern": "https://github.com/zhangdi168/VitePressSimple/edit/main/docs/:path"
+          "pattern": ""
         },
         "docFooter": {
           "prev": "Previous page",
           "next": "Next Page"
         },
-        "nav": [],
+        "nav": [
+          {
+            "text": "帮助文档",
+            "link": "/zh/操作手册/入门/产品介绍"
+          }
+        ],
         "sidebar": {
           "/en/操作手册/": [
             {
@@ -254,10 +259,10 @@ export const VpSimpleConfig = {
           ]
         },
         "i18nRouting": true,
-        "siteTitle": "边坡监测预警平台文档  帮助文档",
+        "siteTitle": "边坡监测预警平台文档",
         "footer": {
           "message": "",
-          "copyright": ""
+          "copyright": "Copyright © 2017-2026 MyPattern.All rights reserved"
         }
       }
     },
@@ -274,13 +279,18 @@ export const VpSimpleConfig = {
         "externalLinkIcon": true,
         "editLink": {
           "text": "Edit this page on GitHub",
-          "pattern": "https://github.com/zhangdi168/VitePressSimple/edit/main/docs/:path"
+          "pattern": ""
         },
         "docFooter": {
           "prev": "Previous page",
           "next": "Next Page"
         },
-        "nav": [],
+        "nav": [
+          {
+            "text": "Help Documentation",
+            "link": "/en/操作手册/入门/产品介绍"
+          }
+        ],
         "sidebar": {
           "/en/操作手册/": [
             {
@@ -315,7 +325,7 @@ export const VpSimpleConfig = {
         "siteTitle": "Mypattern",
         "footer": {
           "message": "",
-          "copyright": ""
+          "copyright": "边坡监测预警平台文档"
         }
       }
     },
@@ -332,7 +342,7 @@ export const VpSimpleConfig = {
         "externalLinkIcon": true,
         "editLink": {
           "text": "Edit this page on GitHub",
-          "pattern": "https://github.com/zhangdi168/VitePressSimple/edit/main/docs/:path"
+          "pattern": ""
         },
         "docFooter": {
           "prev": "Previous page",
@@ -398,24 +408,26 @@ export const VpSimpleConfig = {
           ]
         },
         "i18nRouting": true,
-        "siteTitle": "边坡监测预警平台文档  帮助文档",
+        "siteTitle": "边坡监测预警平台文档",
         "footer": {
           "message": "",
-          "copyright": ""
+          "copyright": "边坡监测预警平台文档"
         }
       }
     }
   },
   "cacheDir": "./.vitepress/cache",
   "title": "Mypattern",
-  "titleTemplate": "| simple config vitepress",
+  "titleTemplate": "| Mypattern",
   "description": "",
   "lang": "en-US",
-  "base": "/",
+  "base": "/mypatterndocs/",
   "outDir": "./.vitepress/dist",
   "cleanUrls": false,
   "rewrites": {
     "packages/pkg-a/src/pkg-a-docs.md": "pkg-a/index.md",
-    "packages/pkg-b/src/pkg-b-docs.md": "pkg-b/index.md"
-  }
+    "packages/pkg-b/src/pkg-b-docs.md": "pkg-b/index.md",
+    "/mypatterndocs/": "/"
+  },
+  "cachePath": false
 };

@@ -4,7 +4,7 @@
     "description": "",
     "navbar": true,
     "sideBar": true,
-    "footer": false,
+    "footer": true,
     "outline": [
         1,
         3
