@@ -27,4 +27,10 @@ export const CustomConfig = {
   themeConfig: {
     socialLinks: [],
   },
+  vite: {
+    server: {
+      port: 5173,
+      strictPort: false,
+    },
+  },
 };
