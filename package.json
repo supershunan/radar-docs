@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.2.3"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.23",
+    "markdown-it-custom-attrs": "^1.0.2"
+  }
+}
