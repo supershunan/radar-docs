@@ -1,6 +1,6 @@
 ---
 {
-    "title": "边坡监测预警平台文档",
+    "title": "index",
     "description": "",
     "navbar": true,
     "sideBar": true,
@@ -21,14 +21,14 @@
             "width": "",
             "height": ""
         },
-        "name": "云上方向图",
-        "text": "边坡监测预警平台文档",
+        "name": "方向图文档",
+        "text": "1111",
         "description": "",
         "tagline": "",
         "actions": [
             {
                 "text": "帮助文档",
-                "link": "/zh/操作手册/入门/产品介绍"
+                "link": "/zh/帮助文档/入门/产品介绍"
             }
         ],
         "features": [],
