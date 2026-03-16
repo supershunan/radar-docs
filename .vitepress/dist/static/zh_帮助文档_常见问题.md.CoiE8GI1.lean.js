@@ -1,1 +1,0 @@
-import{_ as a,c as t,o as r,a1 as o}from"./chunks/framework.9hXSu8bi.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/帮助文档/常见问题.md","filePath":"zh/帮助文档/常见问题.md"}'),l={name:"zh/帮助文档/常见问题.md"},e=o("",16),i=[e];function n(s,p,h,d,c,g){return r(),t("div",null,i)}const A=a(l,[["render",n]]);export{_ as __pageData,A as default};
