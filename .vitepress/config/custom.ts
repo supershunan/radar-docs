@@ -5,6 +5,14 @@ export const CustomConfig = {
     [
       "link",
       {
+        rel: "icon",
+        type: "image/png",
+        href: "/mypatterndocs/images/logo.png",
+      },
+    ],
+    [
+      "link",
+      {
         rel: "stylesheet",
         href: "/plugins/bigimg/fancybox.css", //大图css
       },

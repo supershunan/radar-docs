@@ -22,6 +22,24 @@ export default {
         },
         { immediate: true }
       );
+
+      watch(
+        () => route.path,
+        () => {
+          const params = new URLSearchParams(window.location.search);
+          const icon = params.get("icon");
+
+          if (icon) {
+            document
+              .querySelector("link[rel='icon']")
+              ?.setAttribute(
+                "href",
+                window.location.origin + "/api/logo/" + icon
+              );
+          }
+        },
+        { immediate: true }
+      );
     }
   },
 };
