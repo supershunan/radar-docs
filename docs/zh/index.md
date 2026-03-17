@@ -1,6 +1,6 @@
 ---
 {
-    "title": "index",
+    "title": "",
     "description": "",
     "navbar": true,
     "sideBar": true,
@@ -21,8 +21,8 @@
             "width": "",
             "height": ""
         },
-        "name": "方向图文档",
-        "text": "1111",
+        "name": "云上方向图",
+        "text": "边坡监测预警平台文档",
         "description": "",
         "tagline": "",
         "actions": [

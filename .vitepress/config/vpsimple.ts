@@ -187,12 +187,12 @@ export const VpSimpleConfig = {
         "darkModeSwitchTitle": "切换到深色模式",
         "externalLinkIcon": true,
         "editLink": {
-          "text": "Edit this page on GitHub",
+          "text": "在 GitHub 上编辑此页面",
           "pattern": ""
         },
         "docFooter": {
-          "prev": "Previous page",
-          "next": "Next Page"
+          "prev": "上一页",
+          "next": "下一页"
         },
         "nav": [
           {
@@ -327,10 +327,6 @@ export const VpSimpleConfig = {
             {
               "text": "开始使用",
               "items": [
-                {
-                  "text": "images",
-                  "link": "/zh/帮助文档/开始使用/images"
-                },
                 {
                   "text": "基本概念",
                   "link": "/zh/帮助文档/开始使用/基本概念"
