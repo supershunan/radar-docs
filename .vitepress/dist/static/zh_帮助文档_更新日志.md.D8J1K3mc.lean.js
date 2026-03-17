@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as t,a1 as a}from"./chunks/framework.9hXSu8bi.js";const v=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"zh/帮助文档/更新日志.md","filePath":"zh/帮助文档/更新日志.md"}'),o={name:"zh/帮助文档/更新日志.md"},e=a("",8),r=[e];function n(s,u,_,c,h,d){return t(),i("div",null,r)}const m=l(o,[["render",n]]);export{v as __pageData,m as default};
