@@ -1,4 +1,4 @@
-import { nextTick, watch } from "vue";
+import { nextTick, watch, ref } from "vue";
 import { useRoute } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./medium-zoom.css";
@@ -7,6 +7,7 @@ export default {
   ...DefaultTheme,
   setup() {
     const route = useRoute();
+    let homeIcon = "";
 
     if (!import.meta.env.SSR) {
       watch(
@@ -25,16 +26,18 @@ export default {
 
       watch(
         () => route.path,
-        () => {
+        async () => {
           const params = new URLSearchParams(window.location.search);
           const icon = params.get("icon");
 
-          if (icon) {
+          if (icon || homeIcon) {
+            homeIcon = icon ? icon : homeIcon;
+            await nextTick();
             document
               .querySelector("link[rel='icon']")
               ?.setAttribute(
                 "href",
-                window.location.origin + "/api/logo/" + icon
+                window.location.origin + "/api/logo/" + homeIcon
               );
           }
         },
